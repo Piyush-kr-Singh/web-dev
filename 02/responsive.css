@@ -1,0 +1,39 @@
+@media only screen and (max-width:640px){
+    header{
+        width: 275vw;
+    }
+    .middle_container{
+        width: 242vw;
+        padding-left: 89px;
+    }
+    
+    .lower-middle{
+        width: 275vw;
+    }
+    .triple{
+        margin-left: 12pxpx
+    }
+    .avatar{
+        margin-left: 165px
+        
+    }
+    .font-effect-fire{
+        margin-right: 204px;
+    }
+    .matching-btn{
+        position: relative;
+        bottom: 100px;
+    }
+
+    footer{
+        width: 275vw;
+    }
+   
+    body{
+        background-color: brown;
+        background-size: 50%;
+        
+    }
+ 
+
+}

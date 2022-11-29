@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-size: 20px;
+        background-image: url(/background_02.jpg);
+        background-position: center;
+    }
+
+    form {
+        width: 400px;
+        height: 400px;
+        border: 2px solid black;
+        border-radius: 5%;
+        margin: 100px 570px;
+        padding-top: 20px;
+    }
+
+    .email {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pasword {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input {
+        width: 180px;
+        height: 26px;
+        border-radius: 4px;
+        background-color: rgba(240, 248, 255, 0.253);
+        color: white;
+        font-size: 15px;
+        border: 2px solid black;
+    }
+
+    button {
+        margin-left: 135px;
+        width: 150px;
+        height: 40px;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 20px;
+        
+        background-color: rgba(240, 248, 255, 0.242);
+        color: white;
+    }
+
+    button:hover {
+        background-color: white;
+        color: black;
+
+    }
+
+    input:focus {
+        background-color: white;
+        color: black;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    .forget_password{
+
+        margin-left: 165px;
+    /* margin-bottom: 38px; */
+    position: relative;
+    bottom: 46px;
+    }
+    .forget_password a:hover{
+        color: rgb(242, 139, 139);
+    }
+
+   
+</style>
+
+<body>
+
+    <form action="">
+        <h2 align="center">Log-In Form</h2>
+        <div class="email">
+            <h3>Username :</h3>&nbsp <input type="email"><br><br>
+        </div>
+
+        <div class="pasword">
+            <h3>Password :</h3>&nbsp <input type="password">
+        </div>
+        <h4 class="forget_password" ><a href="#">Forget password?</a> </h4>
+
+
+      
+           
+       
+        
+        <button><a href="01.html">Log In</a> </button><br>
+    </form>
+</body>
+
+</html>
